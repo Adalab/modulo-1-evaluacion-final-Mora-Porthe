@@ -7,6 +7,15 @@
   justify-content: center;
   background-size: cover;
   background-position: center;
+  @media screen and (min-width: 768px) {
+    height: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: url("../images/cover@3x.jpg");
+    height: 768px;
+    background-size: cover;
+    overflow: hidden;
+  }
 
   &__button-menu {
     background-color: #0271bc;
@@ -26,6 +35,16 @@
     text-transform: uppercase;
     text-align: center;
     margin: 284px 15px 0 15px;
+    @media screen and (min-width: 768px) {
+      font-size: 80px;
+      line-height: 106px;
+      margin: 348px 39px 0px 30px;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 100px;
+      line-height: 132px;
+      margin: 384px 275px 0px 275px;
+    }
   }
   &__text {
     font-family: $font-text;
@@ -34,12 +53,25 @@
     color: white;
     text-align: center;
     margin: 10px 15px 45px 15px;
+    @media screen and (min-width: 768px) {
+      font-size: 24px;
+      margin: 20px 204px 30px 204px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin: 0px 275px 30px 275px;
+    }
   }
   &__button-down-container {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 53px;
+    @media screen and (min-width: 768px) {
+      margin-bottom: 45px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 13px;
+    }
   }
   &__button-down {
     width: $buttonWidth;
