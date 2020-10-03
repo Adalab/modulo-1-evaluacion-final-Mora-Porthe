@@ -11,10 +11,10 @@
     height: 768px;
   }
   @media screen and (min-width: 1200px) {
-    background-image: url("../images/cover@3x.jpg");
-    height: 768px;
-    background-size: cover;
-    overflow: hidden;
+    /*   background-image: url("../images/cover@3x.jpg"); */
+    height: 768%;
+    /*     background-size: cover;
+    /*    overflow: hidden; */
   }
 
   &__button-menu {
@@ -31,7 +31,7 @@
     font-size: 42px;
     line-height: 55px;
     font-weight: bold;
-    color: white;
+    color: $color-h1;
     text-transform: uppercase;
     text-align: center;
     margin: 284px 15px 0 15px;
