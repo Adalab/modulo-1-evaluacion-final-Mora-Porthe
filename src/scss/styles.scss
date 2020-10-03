@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "roboto slab";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap"rel="stylesheet");
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Roboto:wght@500&display=swap"rel="stylesheet");
+}
+
 @import "core/reset";
 @import "core/variables";
 @import "layout/header";
