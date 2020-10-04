@@ -46,12 +46,14 @@
   &__button-go {
     width: 76px;
     height: 45px;
-    padding: 10px 25px 10px 26px;
+    padding: 10px 25px;
     border-radius: 22.5px;
     border: 2px solid $color-button;
     background-color: white;
     margin: 0px 229px 45px 15px;
     color: $color-button;
+    font-size: 20px;
+    text-align: center;
     font-family: "Roboto";
     font-weight: medium;
     text-decoration: none;
