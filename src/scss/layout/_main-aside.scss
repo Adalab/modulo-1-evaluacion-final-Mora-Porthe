@@ -1,11 +1,62 @@
 .aside {
   width: 100%;
-  height: 320px;
+  height: 376px;
   background-color: white;
   display: flex;
   flex-direction: column;
 }
 
+// Marca un error al intentar anidar - Abajo anidación comentada.
+
+.aside__introduction {
+  font-family: $font-text;
+  font-weight: $font-regular;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #8ccbea;
+  margin: 30px 215px 1px 15px;
+}
+
+.aside__title {
+  width: 290px;
+  height: 60px;
+  font-family: "roboto slab";
+  font-weight: $font-bold;
+  color: $color-h2;
+  font-size: 24px;
+  text-transform: capitalize;
+  line-height: 30px;
+  margin: 0px 15px 15px 15px;
+}
+
+.aside__text {
+  width: 290px;
+  height: 120px;
+  font-family: $font-text;
+  font-weight: $font-regular;
+  font-size: 18px;
+  line-height: 30px;
+  color: $color-text2;
+  margin: 0px 15px 30px 15px;
+}
+
+.aside__button-go {
+  display: inline-block;
+  width: 76px;
+  height: 45px;
+  padding: 10px 25px 10px 26px;
+  border-radius: 22.5px;
+  border: 2px solid $color-button;
+  background-color: white;
+  margin: 0px 229px 45px 15px;
+  color: $color-button;
+  font-family: "Roboto";
+  font-weight: medium;
+  text-decoration: none;
+}
+
+/* 
 &__introduction {
   font-family: $font-text;
   font-weight: $font-regular;
@@ -19,7 +70,7 @@
 &__title {
   width: 290px;
   height: 60px;
-  font-family: $font-title;
+  font-family: "roboto slab";
   font-weight: $font-bold;
   color: $color-h2;
   font-size: 24px;
@@ -38,3 +89,19 @@
   color: $color-text2;
   margin: 0px 15px 30px 15px;
 }
+
+&__button-go {
+  display: inline-block;
+  width: 76px;
+  height: 45px;
+  padding: 10px 25px 10px 26px;
+  border-radius: 22.5px;
+  border: 2px solid $color-button;
+  background-color: white;
+  margin: 0px 229px 45px 15px;
+  color: $color-button;
+  font-family: "Roboto";
+  font-weight: medium;
+  text-decoration: none;
+}
+ */
