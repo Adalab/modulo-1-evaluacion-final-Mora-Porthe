@@ -4,6 +4,12 @@
   background-color: $color-background-mainaside;
   display: flex;
   flex-direction: column;
+  @media screen and (min-width: 768px) {
+    height: 330px;
+  }
+  @media screen and (min-width: 1200px) {
+    height: 360px;
+  }
 
   &__introduction {
     display: inline-block;
@@ -16,6 +22,15 @@
     text-transform: capitalize;
     color: #8ccbea;
     margin: 30px 215px 1px 15px;
+    @media screen and (min-width: 768px) {
+      width: 216px;
+      margin: 30px 513px 1px 39px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 360px;
+      font-size: 16px;
+      margin: 60px 645px 1px 275px;
+    }
   }
 
   &__title {
@@ -29,6 +44,18 @@
     text-transform: capitalize;
     line-height: 30px;
     margin: 0px 15px 15px 15px;
+    @media screen and (min-width: 768px) {
+      width: 690px;
+      height: 45px;
+      font-size: 26px;
+      line-height: 45px;
+      margin: 0px 39px 15px 39px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 730px;
+      font-size: 32px;
+      margin: 0px 275px 15px 275px;
+    }
   }
 
   &__text {
@@ -41,6 +68,16 @@
     line-height: 30px;
     color: $color-text2;
     margin: 0px 15px 30px 15px;
+    @media screen and (min-width: 768px) {
+      width: 690px;
+      height: 60px;
+      font-size: 20px;
+      margin: 0px 39px 30px 39px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 730px;
+      margin: 0px 275px 30px 275px;
+    }
   }
 
   &__button-go {
@@ -57,5 +94,13 @@
     font-family: "Roboto";
     font-weight: medium;
     text-decoration: none;
+    @media screen and (min-width: 768px) {
+      width: 91px;
+      margin: 0px 638px 45px 39px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 160px;
+      margin: 0px 845px 45px 275px;
+    }
   }
 }
