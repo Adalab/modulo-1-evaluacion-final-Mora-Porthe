@@ -7,12 +7,6 @@
   justify-content: center;
   background-size: cover;
   background-position: center;
-  @media screen and (min-width: 768px) {
-    height: 768px;
-  }
-  @media screen and (min-width: 1200px) {
-    height: 768%;
-  }
 
   &__button-menu {
     background-color: #0271bc;
@@ -25,23 +19,24 @@
   }
   &__title {
     display: inline-block;
+    text-align: center;
     font-family: "roboto slab";
     font-size: 42px;
     line-height: 55px;
     font-weight: bold;
     color: $color-h1;
     text-transform: uppercase;
-    text-align: center;
-    margin: 284px 15px 0 15px;
+    margin: 248px auto 0 auto;
     @media screen and (min-width: 768px) {
       font-size: 80px;
       line-height: 106px;
-      margin: 348px 39px 0px 30px;
+      /*  margin: 348px 39px 0px 39px; */
     }
     @media screen and (min-width: 1200px) {
       font-size: 100px;
       line-height: 132px;
-      margin: 384px 275px 0px 275px;
+      width: 748px;
+      margin: 160px auto 0 auto;
     }
   }
   &__text {
